@@ -152,7 +152,7 @@
      }
 
      .card>* {
-         max-width: 300px;
+         max-width: 18.75rem;
      }
 
      .card-image img {
