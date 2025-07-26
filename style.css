@@ -21,7 +21,7 @@
 
  body {
      font-family: 'Montserrat', sans-serif;
-     background-color: hsl(30, 38%, 92%);
+     background-color: var(--color-cream);
      font-size: 14px;
  }
 
@@ -155,5 +155,11 @@
 
      .card-image img {
          border-radius: 7px 0 0 7px;
+     }
+ }
+
+ @media (prefers-reduced-motion: reduce) {
+     .card-button {
+         transition: none;
      }
  }
