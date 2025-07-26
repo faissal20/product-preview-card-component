@@ -22,7 +22,8 @@
  body {
      font-family: 'Montserrat', sans-serif;
      background-color: var(--color-cream);
-     font-size: 14px;
+     font-size: 0.875rem;
+     /* 14px */
  }
 
  main {
@@ -102,7 +103,7 @@
  }
 
  .text-preset-1 {
-     font-size: 32px;
+     font-size: 2rem;
      font-weight: 700;
      line-height: 100%;
      letter-spacing: 0;
@@ -111,7 +112,7 @@
  }
 
  .text-preset-2 {
-     font-size: 14px;
+     font-size: 0.875rem; /* 14px */
      font-weight: 700;
      line-height: 110%;
      letter-spacing: 0;
@@ -119,7 +120,7 @@
  }
 
  .text-preset-3 {
-     font-size: 14px;
+     font-size: 0.875rem;
      font-weight: 400;
      line-height: 160%;
      letter-spacing: 0;
@@ -127,7 +128,8 @@
  }
 
  .text-preset-4 {
-     font-size: 12px;
+     /* 12px */
+     font-size: 0.75rem;
      font-weight: 400;
      line-height: 120%;
      letter-spacing: 5px;
@@ -135,7 +137,7 @@
  }
 
  .text-preset-5 {
-     font-size: 13px;
+     font-size: 0.813rem;
      font-weight: 400;
      line-height: 160%;
      letter-spacing: 0;
